@@ -8,7 +8,7 @@ for Winc Academy
 Hugo Maat, 17/2/2022
 """
 
-df = pd.read_csv('C:\Users\hugom\OneDrive\Documents\Winc\Python\shark attack\attacks.csv') #, encoding = "ISO-8859-1")
+df = pd.read_csv('https://raw.githubusercontent.com/hugo-maat/Shark-Attack/main/attacks.csv') #, encoding = "ISO-8859-1")
 # changed encoding based on advice on StackOverflow, utf-8 gave error.
 
 # dropping columns (although it might be better to indicate which ones not to drop)
